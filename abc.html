@@ -42,57 +42,53 @@
 
 
   <header class="embed-hide">
-   <div class="lang-picker">
-      <a href="#" data-lang-picker='si' style="">සිංහල</a> |
-      <a href="#" data-lang-picker='ta' style="">தமிழ்</a> |
-    <a href="#" data-lang-picker='en' style="">English</a>
-    </div>
+   
 
 
-    <h1 data-si="ශ්‍රී ලංකාවේ COVID-19 පැතිරීම පිළිබඳව නවතම තත්ත්වය" data-ta="இலங்கை COVID-19 கொரோனா நோய்க்கிருமி பரம்பலின் நேரடித்தரவுகள்">Sri Lanka COVID-19 Coronavirus Tracker</h1>
+    <h1>இலங்கை COVID-19 கொரோனா நோய்க்கிருமி பரம்பலின் நேரடித்தரவுகள்</h1>
     <div>
       <em>
-      <span data-si="යොමුවන්න &nbsp; " data-ta="பார்வையிட &nbsp; ">  View our </span><a data-si="රෝගීන් පිළිබඳව සජීවී දත්ත ගබඩාව" data-ta="நோயாளர்களின் விபரம் பற்றிய  நேரடி தரவுத்தளம்" href="https://docs.google.com/spreadsheets/d/1zIgPU0ZlYkiKaavYAUcHKgEP95jdaMaf9ljJgRqtog4/edit" target="_blank">live patient database</a>
+      <span >  பார்வையிட </span><a href="https://docs.google.com/spreadsheets/d/1zIgPU0ZlYkiKaavYAUcHKgEP95jdaMaf9ljJgRqtog4/edit" target="_blank">நோயாளர்களின் விபரம் பற்றிய  நேரடி தரவுத்தளம்</a>
       </em>
     </div>
     <div>
       <em>
-        <span data-si="අවසන් වරට යාවත්කාලීන කල වෙලාව: " data-ta="இறுதியாக புதுப்பிக்கப்பட்டது: ">Last Updated: </span> <strong id="last-updated">-</strong>
+        <span >இறுதியாக புதுப்பிக்கப்பட்டது: </span> <strong id="last-updated">-</strong>
       </em>
     </div>
   </header>
 
   <section id="kpi">
 
-    <div id="kpi-active" data-tippy-content="Confirmed cases - (Recovered + Deaths)" data-tippy-placement="bottom">
+    <div id="kpi-active" data-tippy-content="உறுதிப்படுத்தப்பட்ட வழக்குகள் - (மீட்கப்பட்டது + இறப்புகள்)" data-tippy-placement="bottom">
       <div class="diff">( +0 )</div>
       <div class="value"><div class="lds-dual-ring"></div></div>
-      <div class="label" data-si="සක්‍රීය" data-ta="சிகிச்சையின் கீழ்" data-en="Active ⓘ">Active <sup>ⓘ</sup></div>
+      <div class="label">சிகிச்சையின் கீழ் <sup>ⓘ</sup></div>
     </div>
     <div id="kpi-critical">
       <div class="diff">( +0 )</div>
       <div class="value"><div class="lds-dual-ring"></div></div>
-      <div class="label" data-si="අසාධ්‍ය" data-ta="கடுமையானவை">Critical</div>
+      <div class="label">கடுமையானவை</div>
     </div>
     <div id="kpi-deceased">
       <div class="diff">( +0 )</div>
       <div class="value"><div class="lds-dual-ring"></div></div>
-      <div class="label" data-si="මරණ" data-ta="இறப்புகள்">Deaths</div>
+      <div class="label">இறப்புகள்</div>
     </div>
-    <div id="kpi-tested" data-tippy-content='"Tested" may include duplicates due to transfers between hospitals' data-tippy-placement="bottom">
+    <div id="kpi-tested" data-tippy-content='"சோதிக்கப்பட்டது "மருத்துவமனைகளுக்கு இடையிலான இடமாற்றங்கள் காரணமாக நகல்களைக் கொண்டிருக்கலாம்' data-tippy-placement="bottom">
       <div class="diff">( +0 )</div>
       <div class="value-hositalized"><div class="lds-dual-ringa value"><span class="lds-dual-ring"> </span></div><span class="hositalized"><span class="lds-dual-ring"></span></span></div>
-      <div class="label" data-si="පරීක්ෂාවට ලක් වූ (රෝහල්ගත වූ)" data-ta="பரிசோதிக்கப்பட்டவை (அனுமதிக்கப்பட்டவை)" data-en="Tested ⓘ">Tested <sup>ⓘ </sup><span> (Admitted)</span></div>
+      <div class="label">பரிசோதிக்கப்பட்டவை (அனுமதிக்கப்பட்டவை) <sup>ⓘ </sup></div>
     </div>
     <div id="kpi-confirmed">
       <div class="diff">( +0 )</div>
       <div class="value"><div class="lds-dual-ring"></div></div>
-      <div class="label" data-si="තහවුරු වූ" data-ta="உறுதி">Confirmed</div>
+      <div class="label">உறுதி</div>
     </div>
     <div id="kpi-recovered">
       <div class="diff">( +0 )</div>
       <div class="value"><div class="lds-dual-ring"></div></div>
-      <div class="label" data-si="සුවය ලැබූ" data-ta="குணமடைந்தவை">Recovered</div>
+      <div class="label">குணமடைந்தவை</div>
     </div>
   </section>
 
