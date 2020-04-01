@@ -27,12 +27,19 @@
         <!-- /mobilemonkey for FB -->
         <script async="async" src="https://static.mobilemonkey.com/js/107064710938187.js"></script>
 
-
-        <script src="assets/js/jquery-3.4.1.slim.min.js"> </script> 
+        <!-- /scripts for datatables -->
+        <!--<script src="assets/js/jquery-3.4.1.slim.min.js"> </script> 
         <script src="assets/js/jquery.dataTables.min.js"> </script>
-        <link rel="stylesheet" type="text/css" href="assets/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.dataTables.min.css"> -->
     
       
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+
+        <link href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet">
+        <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+
       </head>
     
     
@@ -82,72 +89,203 @@
     <div class="features-with-17_sur py-5">
       <div class="container py-lg-3">
         <h3 class="global-title my-title">சேவைகள்</h3>
-        <div class="features-with-17-top_sur">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 mt-md-0 mt-4">
-
-                <p> </p>
-                <table id="example" class="display" style="width:100%;">
-                    <thead>
-                        <tr>
-                          
-                            <th>குறியீடு </th>
-                            <th>விநியோக நிறுவனம்</th>
-                            <th>தொலைபேசி இலக்கம்</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            
-                            <td>AMP</td>
-                            <td>Food City - அம்பாறை</td>
-                            <td>063 222 2372</td>
-                        </tr>
-                        <tr>
-                            
-                            <td>AKP</td>
-                            <td>Food City - அக்கரைபற்று</td>
-                            <td>067 227 9415</td>
-                        </tr>
-                        <tr>
-                            
-                            <td>KAL</td>
-                            <td>Food City - கல்முனை</td>
-                            <td>067 222 5520</td>
-                        </tr>
-                        <tr>
-                            
-                            <td>POT</td>
-                            <td>Food City - பொத்துவில்</td>
-                            <td>063 205 0805</td>
-                        </tr>
-                        <tr>
-                           
-                            <td>SAM</td>
-                            <td>Food City - சம்மாந்துறை</td>
-                            <td>067 226 1478</td>
-                        </tr>
-                        
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            
-                            
-                            <th>Start date</th>
-                            <th>Start date</th>
-                            <th>Salary</th>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <div style="margin-right: 15%; margin-left:15%; margin-bottom: 5%;">
+    <table id="example" class="display responsive nowrap" style="width:100%;">
+      <thead>
+          <tr>
+              <th>மாவட்டம் </th>
+              <th>குறியீடு </th>
+              <th>நிறுவனம்</th>
+              <th>தொலைபேசி இல</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>அம்பாறை </td>
+              <td>AMP</td>
+              <td>Food City - அம்பாறை</td>
+              <td>063 222 2372</td>
+          </tr>
+          <tr>
+             <td>அம்பாறை </td>
+              <td>AKP</td>
+              <td>Food City - அக்கரைபற்று</td>
+              <td>067 227 9415</td>
+          </tr>
+          <tr>
+              <td>அம்பாறை </td>
+              <td>KAL</td>
+              <td>Food City - கல்முனை</td>
+              <td>067 222 5520</td>
+          </tr>
+          <tr>
+              <td>அம்பாறை </td>
+              <td>POT</td>
+              <td>Food City - பொத்துவில்</td>
+              <td>063 205 0805</td>
+          </tr>
+          <tr>
+              <td>அம்பாறை </td>
+              <td>SAM</td>
+              <td>Food City - சம்மாந்துறை</td>
+              <td>067 226 1478</td>
+          </tr>  
+          <tr>
+            <td>அனுராதபுரம் </td>
+            <td>IPA</td>
+            <td>Food City - இபலோகாமா</td>
+            <td>025-2262000</td>
+        </tr>  
+        <tr>
+          <td>அனுராதபுரம் </td>
+          <td>ANU</td>
+          <td>Food City - அனுராதபுரம்</td>
+          <td>025-2226044</td>
+        </tr> 
+        <tr>
+          <td>அனுராதபுரம் </td>
+          <td>ANT</td>
+          <td>Food City - அனுராதபுரம் 2</td>
+          <td>025-2227480</td>
+       </tr> 
+       <tr>
+        <td>அனுராதபுரம் </td>
+        <td>MAD</td>
+        <td>Food City - மதவாச்சிய</td>
+        <td>025-2245100</td>
+     </tr> 
+     <tr>
+      <td>அனுராதபுரம் </td>
+      <td>KEK</td>
+      <td>Food City - கொக்கிறாவ</td>
+      <td>025-2263973</td>
+   </tr> 
+   
+   <tr>
+    <td>பதுளை</td>
+    <td>MHY</td>
+    <td>Food City - மகியங்கணை</td>
+    <td>055-2258356</td>
+ </tr> 
+
+ <tr>
+  <td>பதுளை </td>
+  <td>BAN</td>
+  <td>Food City - பண்டாரவேல</td>
+  <td>057-2222411</td>
+</tr> 
+
+<tr>
+  <td>பதுளை </td>
+  <td>BAD</td>
+  <td>Food City - பதுளை</td>
+  <td>055-2224839</td>
+</tr> 
+
+<tr>
+  <td>பதுளை </td>
+  <td>BAN</td>
+  <td>Food City - பண்டாரவேல 2</td>
+  <td>057-2220224</td>
+</tr> 
+
+<tr>
+  <td>பதுளை </td>
+  <td>BIN</td>
+  <td>Food City - பிந்துநுவேவா</td>
+  <td>057-2221914</td>
+</tr> 
+
+<tr>
+  <td>மட்டக்களப்பு </td>
+  <td>BAT</td>
+  <td>Food City - மட்டக்களப்பு</td>
+  <td>065 222 7680 </td>
+</tr> 
+
+<tr>
+  <td>மட்டக்களப்பு </td>
+  <td>BTT</td>
+  <td>Food City - மட்டக்களப்பு 2</td>
+  <td>065 222 8819</td>
+</tr> 
+
+<tr>
+  <td>மட்டக்களப்பு </td>
+  <td>KTK</td>
+  <td>Food City - மஞ்சந்தொடுவாய்</td>
+  <td>065 224 8445</td>
+</tr> 
+
+<tr>
+  <td>மட்டக்களப்பு </td>
+  <td>KEK</td>
+  <td>Food City - ஏறாவூர்</td>
+  <td>065-2241506</td>
+</tr> 
+
+<tr>
+  <td>வவுனியா  </td>
+  <td>VUV</td>
+  <td>Food City - வவுனியா </td>
+  <td>024-2224499</td>
+</tr> 
+
+<tr>
+  <td>திருகோணமலை </td>
+  <td>TRC</td>
+  <td>Food City - திருகோணமலை</td>
+  <td>026-222600</td>
+</tr> 
+
+<tr>
+  <td>முல்லைத்தீவு </td>
+  <td>EMC</td>
+  <td>Food City - முல்லைத்தீவு</td>
+  <td>021-2060211</td>
+</tr> 
+
+
+<tr>
+  <td>கிளிநோச்சி </td>
+  <td>KNC</td>
+  <td>Food City - கிளிநோச்சி</td>
+  <td>021-2280096</td>
+</tr> 
+
+<tr>
+  <td>மன்னார் </td>
+  <td>EMN</td>
+  <td>Food City - மன்னார்</td>
+  <td>023-2251792</td>
+</tr> 
+
+<tr>
+  <td>யாழ்ப்பாணம் </td>
+  <td>MAY</td>
+  <td>Food City - மானிப்பாய்</td>
+  <td>021-2255356</td>
+</tr> 
+
+
+      </tbody>
+      <tfoot>
+          <tr>
+            <th>மாவட்டம் </th>
+            <th>குறியீடு </th>
+            <th>நிறுவனம்</th>
+            <th>தொலைபேசி இல</th>
+          </tr>
+      </tfoot>
+  </table>
+  </div>
   <!--  //services section -->
-    
+ 
         
      <!-- Footer -->
   <footer class="w3l-footer">
@@ -211,7 +349,7 @@
     <script>
         $(document).ready(function() {
              $('#example').DataTable();
-             
+                 
         } );
     </script>
 </html>
