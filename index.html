@@ -32,6 +32,8 @@
            transition:  fill 0.3s;
        }
 
+
+    
        html {
   scroll-behavior: smooth;
 }
@@ -407,7 +409,7 @@
                         </div>
                         <div class="col-7 col-md-8">
                           <div class="numbers">
-                            <p class="card-title" id="total_cases">
+                            <p class="card-title count" id="total_cases" >
                               <p>
                                 <p class="card-category">உறுதியானவர்கள்</p>
                           </div>
@@ -422,6 +424,75 @@
           </div>
         </div>
       </section>
+    </section>
+
+    <section class="section section-lg ">
+      <img src="../assets/img/path3.png" class="path">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <hr class="line-info">
+            <h3>தகவல் மூலாதாரங்கள் </h3>
+          </div>
+        </div>
+        <div class="row" style="margin-top:80px;">
+          <div class="col-md-4">
+            <div class="card card-coin card-plain">
+              <div class="card-header">
+                <img src="assets/img/c1.jpg" class="img-center img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h4 class="text-uppercase">World Health Organization</h4>
+                    <hr class="line-primary">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer text-center">
+                <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" class="btn btn-primary btn-simple">மேலதிக தகவல்களுக்கு</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-coin card-plain">
+              <div class="card-header">
+                <img src="assets/img/c2.jpg" class="img-center img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h4 class="text-uppercase">HEALTH PROMOTION BUREAU</h4>
+                   
+                    <hr class="line-success">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer text-center">
+                <a href="https://hpb.health.gov.lk/en/covid-19" class="btn btn-success btn-simple">மேலதிக தகவல்களுக்கு</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-coin card-plain">
+              <div class="card-header">
+                <img src="assets/img/c3.jpg" class="img-center img-fluid">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h4 class="text-uppercase">Centers for Disease Control</h4>
+                    <hr class="line-info">
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer text-center">
+                <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" class="btn btn-primary btn-simple">மேலதிக தகவல்களுக்கு</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
      <footer class="footer">
@@ -787,15 +858,12 @@
         $("#test_cases").append(LAST_test_cases);
 
         var LAST_total_cases = response.data.local_total_cases;
-        $("#total_cases").append(LAST_total_cases);
-
-
-
-       
-
-        
+        $("#total_cases").append(LAST_total_cases);      
 
 });
+
+
+
    </script>
  </body>
  
